@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!DOCTYPE report PUBLIC "-//JACOCO//DTD Report 1.0//EN" "report.dtd">
+<report name="Simple Web Server">
+	<sessioninfo id="adam-toshiba-3a22e8c4" start="1372119631485"
+		dump="1372119632112" />
+	<package name="com/confino/server">
+		<class name="com/confino/server/SimpleServer">
+			<method name="&lt;init&gt;" desc="()V" line="14">
+				<counter type="INSTRUCTION" missed="3" covered="0" />
+				<counter type="LINE" missed="2" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="main" desc="([Ljava/lang/String;)V" line="20">
+				<counter type="INSTRUCTION" missed="47" covered="0" />
+				<counter type="BRANCH" missed="2" covered="0" />
+				<counter type="LINE" missed="11" covered="0" />
+				<counter type="COMPLEXITY" missed="2" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="getHeaderInfo"
+				desc="(Lcom/sun/net/httpserver/HttpExchange;)Ljava/lang/String;"
+				line="53">
+				<counter type="INSTRUCTION" missed="46" covered="0" />
+				<counter type="LINE" missed="9" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="printInfo"
+				desc="(Lcom/sun/net/httpserver/Headers;Ljava/lang/String;)Ljava/lang/String;"
+				line="65">
+				<counter type="INSTRUCTION" missed="18" covered="0" />
+				<counter type="BRANCH" missed="2" covered="0" />
+				<counter type="LINE" missed="3" covered="0" />
+				<counter type="COMPLEXITY" missed="2" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="&lt;clinit&gt;" desc="()V" line="16">
+				<counter type="INSTRUCTION" missed="7" covered="0" />
+				<counter type="LINE" missed="2" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<counter type="INSTRUCTION" missed="121" covered="0" />
+			<counter type="BRANCH" missed="4" covered="0" />
+			<counter type="LINE" missed="27" covered="0" />
+			<counter type="COMPLEXITY" missed="7" covered="0" />
+			<counter type="METHOD" missed="5" covered="0" />
+			<counter type="CLASS" missed="1" covered="0" />
+		</class>
+		<class name="com/confino/server/SimpleServer$MyHandler">
+			<method name="&lt;init&gt;" desc="()V" line="33">
+				<counter type="INSTRUCTION" missed="3" covered="0" />
+				<counter type="LINE" missed="1" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="handle" desc="(Lcom/sun/net/httpserver/HttpExchange;)V"
+				line="35">
+				<counter type="INSTRUCTION" missed="85" covered="0" />
+				<counter type="LINE" missed="15" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<counter type="INSTRUCTION" missed="88" covered="0" />
+			<counter type="LINE" missed="16" covered="0" />
+			<counter type="COMPLEXITY" missed="2" covered="0" />
+			<counter type="METHOD" missed="2" covered="0" />
+			<counter type="CLASS" missed="1" covered="0" />
+		</class>
+		<sourcefile name="SimpleServer.java">
+			<line nr="14" mi="2" ci="0" mb="0" cb="0" />
+			<line nr="16" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="17" mi="4" ci="0" mb="0" cb="0" />
+			<line nr="20" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="21" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="22" mi="2" ci="0" mb="2" cb="0" />
+			<line nr="23" mi="5" ci="0" mb="0" cb="0" />
+			<line nr="25" mi="8" ci="0" mb="0" cb="0" />
+			<line nr="26" mi="7" ci="0" mb="0" cb="0" />
+			<line nr="27" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="28" mi="2" ci="0" mb="0" cb="0" />
+			<line nr="29" mi="10" ci="0" mb="0" cb="0" />
+			<line nr="30" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="31" mi="1" ci="0" mb="0" cb="0" />
+			<line nr="33" mi="4" ci="0" mb="0" cb="0" />
+			<line nr="35" mi="4" ci="0" mb="0" cb="0" />
+			<line nr="36" mi="4" ci="0" mb="0" cb="0" />
+			<line nr="37" mi="14" ci="0" mb="0" cb="0" />
+			<line nr="38" mi="15" ci="0" mb="0" cb="0" />
+			<line nr="39" mi="5" ci="0" mb="0" cb="0" />
+			<line nr="40" mi="4" ci="0" mb="0" cb="0" />
+			<line nr="41" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="42" mi="14" ci="0" mb="0" cb="0" />
+			<line nr="43" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="44" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="45" mi="6" ci="0" mb="0" cb="0" />
+			<line nr="46" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="47" mi="4" ci="0" mb="0" cb="0" />
+			<line nr="48" mi="2" ci="0" mb="0" cb="0" />
+			<line nr="49" mi="1" ci="0" mb="0" cb="0" />
+			<line nr="53" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="54" mi="4" ci="0" mb="0" cb="0" />
+			<line nr="55" mi="6" ci="0" mb="0" cb="0" />
+			<line nr="56" mi="6" ci="0" mb="0" cb="0" />
+			<line nr="57" mi="6" ci="0" mb="0" cb="0" />
+			<line nr="58" mi="6" ci="0" mb="0" cb="0" />
+			<line nr="59" mi="6" ci="0" mb="0" cb="0" />
+			<line nr="60" mi="6" ci="0" mb="0" cb="0" />
+			<line nr="61" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="65" mi="4" ci="0" mb="2" cb="0" />
+			<line nr="66" mi="12" ci="0" mb="0" cb="0" />
+			<line nr="68" mi="2" ci="0" mb="0" cb="0" />
+			<counter type="INSTRUCTION" missed="209" covered="0" />
+			<counter type="BRANCH" missed="4" covered="0" />
+			<counter type="LINE" missed="42" covered="0" />
+			<counter type="COMPLEXITY" missed="9" covered="0" />
+			<counter type="METHOD" missed="7" covered="0" />
+			<counter type="CLASS" missed="2" covered="0" />
+		</sourcefile>
+		<counter type="INSTRUCTION" missed="209" covered="0" />
+		<counter type="BRANCH" missed="4" covered="0" />
+		<counter type="LINE" missed="42" covered="0" />
+		<counter type="COMPLEXITY" missed="9" covered="0" />
+		<counter type="METHOD" missed="7" covered="0" />
+		<counter type="CLASS" missed="2" covered="0" />
+	</package>
+	<package name="com/confino/foo/bar">
+		<class name="com/confino/foo/bar/FooBar">
+			<method name="&lt;init&gt;" desc="()V" line="3">
+				<counter type="INSTRUCTION" missed="3" covered="0" />
+				<counter type="LINE" missed="1" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="bar" desc="()V" line="6">
+				<counter type="INSTRUCTION" missed="4" covered="0" />
+				<counter type="LINE" missed="2" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="foo" desc="()V" line="10">
+				<counter type="INSTRUCTION" missed="4" covered="0" />
+				<counter type="LINE" missed="2" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<method name="zap" desc="()V" line="14">
+				<counter type="INSTRUCTION" missed="4" covered="0" />
+				<counter type="LINE" missed="2" covered="0" />
+				<counter type="COMPLEXITY" missed="1" covered="0" />
+				<counter type="METHOD" missed="1" covered="0" />
+			</method>
+			<counter type="INSTRUCTION" missed="15" covered="0" />
+			<counter type="LINE" missed="7" covered="0" />
+			<counter type="COMPLEXITY" missed="4" covered="0" />
+			<counter type="METHOD" missed="4" covered="0" />
+			<counter type="CLASS" missed="1" covered="0" />
+		</class>
+		<sourcefile name="FooBar.java">
+			<line nr="3" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="6" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="7" mi="1" ci="0" mb="0" cb="0" />
+			<line nr="10" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="11" mi="1" ci="0" mb="0" cb="0" />
+			<line nr="14" mi="3" ci="0" mb="0" cb="0" />
+			<line nr="15" mi="1" ci="0" mb="0" cb="0" />
+			<counter type="INSTRUCTION" missed="15" covered="0" />
+			<counter type="LINE" missed="7" covered="0" />
+			<counter type="COMPLEXITY" missed="4" covered="0" />
+			<counter type="METHOD" missed="4" covered="0" />
+			<counter type="CLASS" missed="1" covered="0" />
+		</sourcefile>
+		<counter type="INSTRUCTION" missed="15" covered="0" />
+		<counter type="LINE" missed="7" covered="0" />
+		<counter type="COMPLEXITY" missed="4" covered="0" />
+		<counter type="METHOD" missed="4" covered="0" />
+		<counter type="CLASS" missed="1" covered="0" />
+	</package>
+	<counter type="INSTRUCTION" missed="224" covered="0" />
+	<counter type="BRANCH" missed="4" covered="0" />
+	<counter type="LINE" missed="49" covered="0" />
+	<counter type="COMPLEXITY" missed="13" covered="0" />
+	<counter type="METHOD" missed="11" covered="0" />
+	<counter type="CLASS" missed="3" covered="0" />
+</report>
