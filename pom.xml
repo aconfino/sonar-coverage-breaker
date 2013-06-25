@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   	<groupId>com.confino.sonar</groupId>
-	<artifactId>sonar-coverage-breaker-plugin</artifactId>
+	<artifactId>coverage-breaker-plugin</artifactId>
 	<packaging>sonar-plugin</packaging>
 	<version>1.0-SNAPSHOT</version>
 
